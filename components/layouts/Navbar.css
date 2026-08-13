@@ -1,0 +1,132 @@
+.dialycare-brand {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #325bbb;
+}
+
+.dialycare-brand span {
+  color: #f2519c;
+}
+
+/* Logo */
+
+.dialycare-logo {
+  width: 38px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: linear-gradient(
+    135deg,
+    #325bbb,
+    #f2519c
+  );
+
+  color: white;
+
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* Navbar links */
+
+.navbar .nav-link {
+  color: #17213c;
+  font-size: 14px;
+  font-weight: 500;
+
+  padding: 10px 4px;
+
+  transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #325bbb;
+}
+
+.navbar .nav-link.dialycare-active {
+  color: #325bbb;
+  font-weight: 600;
+}
+
+/* Sign In */
+
+.dialycare-signin {
+  color: #325bbb !important;
+  border-color: #325bbb !important;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  padding: 8px 18px;
+
+  border-radius: 8px;
+}
+
+.dialycare-signin:hover {
+  background-color: #325bbb !important;
+  color: #ffffff !important;
+}
+
+/* Book Dialysis */
+
+.dialycare-book-btn {
+  background-color: #f2519c;
+  border-color: #f2519c;
+
+  color: #ffffff;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  padding: 8px 18px;
+
+  border-radius: 8px;
+
+  box-shadow: 0 5px 12px rgba(242, 81, 156, 0.2);
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.dialycare-book-btn:hover {
+  background-color: #e7438f;
+  border-color: #e7438f;
+
+  color: #ffffff;
+
+  transform: translateY(-1px);
+
+  box-shadow: 0 7px 16px rgba(242, 81, 156, 0.28);
+}
+
+/* Mobile */
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  .navbar .nav-link {
+    padding: 10px 0;
+  }
+
+  .navbar .d-flex {
+    padding-bottom: 10px;
+  }
+
+  .dialycare-signin,
+  .dialycare-book-btn {
+    flex: 1;
+    text-align: center;
+  }
+}
+
